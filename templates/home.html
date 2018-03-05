@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head><title>Home</title></head>
+    <body>
+        <h1>Home</h1>
+
+
+        <div>
+            <h2>Create a poll</h2>
+            <form action="/create" method="post">
+                <label>Choices (comma separated)</label><br/>
+                <input type="text" name="choices" placeholder="e.g., John, Jim, Joe"/>
+                <input type="submit"/>
+            </form>
+        </div>
+
+        <br/><br/>
+
+        <div>
+            <h2>Vote in a poll</h2>
+            <form action="/vote" method="post">
+                <label>Contract address</label><br/>
+                <input type="text" name="contract_addr" placeholder="eg., 0x46aAd1af88503E4BD1eE4398d28481cD6CD7e37d" /><br/><br/>
+                <label>Your choice (comma separated)</label><br/>
+                <input type="text" name="choice" placeholder="e.g., John"/><br/>
+                <input type="submit"/>
+            </form>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+    <head><title>Results</title></head>
+    <body>
+        <h1>Results</h1>
+        {% for k in results %}
+            <p>{{ k }}: {{ results[k] }}</p>
+        {% endfor %}
+    </body>
+</html>
