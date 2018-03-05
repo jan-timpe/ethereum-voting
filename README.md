@@ -8,14 +8,14 @@ Resources
 
 Setup
 
-
+Install ganache-cli
 ```bash
 npm install ganache-cli
 node_modules/.bin/ganache-cli
 ```
 
 
-In a new terminal window or tab (these ones take forever)
+In a new terminal window or tab (these ones take forever) install solidity binary
 ```bash
 brew update
 brew upgrade
